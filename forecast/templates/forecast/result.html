@@ -1,11 +1,12 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Prediction Result</title>
 </head>
 <body>
-    <h1>Predicted Sales</h1>
-    <p>The predicted sales are: {{ prediction }}</p>
+    <h1>Prediction Result</h1>
+    <p>The predicted sales using <strong>{{ algorithm }}</strong> are: <strong>{{ prediction }}</strong></p>
     <a href="{% url 'home' %}">Go Back</a>
 </body>
 </html>

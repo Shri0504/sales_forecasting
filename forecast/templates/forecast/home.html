@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +14,12 @@
         <input type="number" step="any" name="budget" required><br><br>
         <label for="competition">Competition:</label>
         <input type="number" step="any" name="competition" required><br><br>
+        <label for="algorithm">Select Algorithm:</label>
+        <select name="algorithm" required>
+            <option value="Linear Regression">Linear Regression</option>
+            <option value="Random Forest">Random Forest</option>
+            <option value="XGBoost">XGBoost</option>
+        </select><br><br>
         <button type="submit">Predict</button>
     </form>
 </body>
